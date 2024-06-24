@@ -57,7 +57,7 @@ const quill = new Quill('#editor', {
 <body>
   <div class="container">
     <div id="editor"></div>
-    <script src="/path/to/node_modules/quill-markdown-shortcuts/dist/markdownShortcuts.js"></script>
+    <script src="/path/to/node_modules/dvhuan-quill-markdown-shortcuts/dist/markdownShortcuts.js"></script>
     <script>
       var quill = new Quill('#editor', {
         theme: 'snow',
