@@ -1,6 +1,7 @@
 # Quill Markdown Shortcuts
 
 This package is a [Quill.js](https://quilljs.com) module that converts markdown on the fly to formatted rich text.
+This version support asterisk as bullet list
 
 [Example](https://patleeman.github.io/quill-markdown-shortcuts/)
 
@@ -13,7 +14,7 @@ This package is a [Quill.js](https://quilljs.com) module that converts markdown 
 Use the NPM package manager to add this dependency to your project.
 
 ```bash
-npm i -S quill-markdown-shortcuts
+npm i dvhuan-quill-markdown-shortcuts
 ```
 
 ### Using CDN
@@ -21,7 +22,7 @@ npm i -S quill-markdown-shortcuts
 Add the library via jsdelivr.
 
 ```
-<script src="https://cdn.jsdelivr.net/npm/quill-markdown-shortcuts@latest/dist/markdownShortcuts.js">
+<script src="https://cdn.jsdelivr.net/npm/dvhuan-quill-markdown-shortcuts@latest/dist/markdownShortcuts.js">
 ```
 
 ### By downloading file
@@ -34,7 +35,7 @@ To incorporate the code into your codebase, simply download the markdownShortcut
 
 ```js
 import Quill from 'quill';
-import MarkdownShortcuts from 'quill-markdown-shortcuts';
+import MarkdownShortcuts from 'dvhuan-quill-markdown-shortcuts';
 
 Quill.register('modules/markdownShortcuts', MarkdownShortcuts);
 
