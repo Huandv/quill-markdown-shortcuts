@@ -1,6 +1,7 @@
 # Quill Markdown Shortcuts
 
 This package is a [Quill.js](https://quilljs.com) module that converts markdown on the fly to formatted rich text.
+
 This version support asterisk as bullet list
 
 [Example](https://patleeman.github.io/quill-markdown-shortcuts/)
